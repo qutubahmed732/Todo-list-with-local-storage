@@ -46,9 +46,8 @@ function addTodo() {
       name,
       duedate: dueDate
     });
-    localStorage.setItem("list", JSON.stringify(todoList))
     renderTodoList();
-    saveToStorage()
+    saveToStorage();
   }
   console.log(todoList);
 
